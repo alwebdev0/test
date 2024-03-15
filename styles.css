@@ -2,13 +2,14 @@
 body, h1, h2, h3, p, ul, li, a {
     margin: 0;
     padding: 0;
+    letter-spacing: 0.4px;
 }
 
 body {
     background-color: #ffffff;
     font-family:'Roboto', sans-serif;
     font-size: 21px;
-    margin-bottom: 30px;
+    margin-bottom:100px;
     margin-top: 20px;
     
 }
@@ -41,14 +42,19 @@ section {
     width: 70%; /* Decrease the width of the body */
     margin: 0 auto; /* Center the body horizontally */
     text-align: left;
+    
 }
 
 h2 {
     margin-bottom: 10px;
 }
 
+h4.skills {
+    margin-bottom: 0;
+}
+
 ul {
-    list-style-type: none;
+    list-style-type: disc; /* You can change this to 'square', 'disc', etc. */
 }
 
 
@@ -76,3 +82,44 @@ a:hover {
                 1px 1px 0px rgba(0,0,0,0.2),
                 2px 2px 0px rgba(0,0,0,0.2); /* Adjust values as needed */
 }
+
+.email-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333; /* Blue color */
+    color: #fff; /* White text */
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    margin: 10px;
+}
+
+/* Hover effect */
+.email-button:hover {
+    background-color: #636363; /* Darker blue color */
+   
+}
+
+img {
+    /* Float the image to the left */
+    margin-right: 30px; /* Add some margin to the right of the image */
+    margin-bottom: 30px;
+    border-radius: 5px; /* Add rounded corners to the image */
+    margin-top: 20px;
+
+}
+section p{
+    width: 75%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+/* Media query for mobile devices (max-width: 767px) */
+@media screen and (max-width: 767px) {
+    section p{
+        width: 100%;
+        text-align: left;   
+    }
