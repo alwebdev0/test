@@ -2,13 +2,13 @@
 body, h1, h2, h3, p, ul, li, a {
     margin: 0;
     padding: 0;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.2px;
 }
 
 body {
     background-color: #ffffff;
     font-family:'Roboto', sans-serif;
-    font-size: 21px;
+    font-size: 19px;
     margin-bottom:150px;
     margin-top: 20px;
     
